@@ -1,0 +1,157 @@
+body{
+    background-color: lightgoldenrodyellow;
+    color: darkblue;
+    padding: 0px;
+}
+    header {
+      background-color: darkorange;
+      color: white;
+     
+  
+   
+     
+  
+  }
+  img {
+    
+  }
+  
+  
+  nav ul {
+    display: flex;
+   list-style: none;
+   flex-direction: row;
+   justify-content: space-around;
+  align-items: start;
+  padding-inline-start: 0px;
+  margin: -10px;
+  
+   
+     
+    }
+    nav li {
+      
+  
+      
+     
+  }
+  
+    nav a {
+  
+      color: black;
+      text-align: center;
+      text-decoration: none;
+  
+  
+      
+  
+
+
+ }
+ h1{
+   
+   font-family: Arial, sans-serif;
+    font-size:x-large;
+    text-align: center;
+    color:black;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    
+    
+
+ }
+ h2{
+   
+
+  margin: auto;
+   font-family: helvetica, Arial;
+   text-align: center;
+   background-color: blueviolet;
+   color:blanchedalmond;
+   border: 5px solid black;
+   max-width: 300px;
+   
+ }
+ .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+   margin: auto;
+   padding:20px;
+  
+
+ }
+ .row {
+   display: flex;
+   flex-wrap: nowrap;
+   margin: 10px;
+
+ }
+ .column {
+
+  font-family: Arial, Helvetica, sans-serif;
+   font-size: larger;
+   text-align: center;
+   color:black;
+   flex: 1;
+   padding: 10px;
+ }
+ @media (max-width: 600px) {
+   .column {
+     flex: 100%;
+   }
+
+   
+ }
+ p {
+  
+   
+ }
+ .botones {
+  font-family: Arial, Helvetica, sans-serif;
+   font-size: larger;
+  
+   align-items: start;
+
+ }
+.hora {
+ align-items: center;
+ color: black;
+ display: flex;
+flex-direction: row;
+
+
+ 
+
+}  
+  
+
+nav a:hover {
+  color:blanchedalmond;
+}
+@media (max-width: 480px) {
+  header {
+      background-color: black ;
+
+  }
+}
+@media(max-width: 480px){
+  header{
+      font-size: 1.4em;
+  }
+}
+
+@media (max-width: 480px) {
+header {
+  flex: 100%;
+}
+
+}
+@media (max-width: 480px) {
+header {
+  
+}
+}
